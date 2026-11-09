@@ -60,3 +60,6 @@ body.experience-reveal #main{animation:amanus-screen-in .52s cubic-bezier(.2,.7,
 @keyframes amanus-loading{0%{transform:translateX(-110%)}100%{transform:translateX(350%)}}
 @keyframes amanus-screen-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.experience-splash,.experience-splash *{animation:none!important;transition:none!important}body.experience-reveal #main{animation:none}.experience-splash-track span{width:100%}}
+
+/* Keep each concept compact regardless of neighbouring scene height. */
+.future-grid{align-items:start}.future-grid .future-play{align-self:start}.future-grid .future-scene{margin-top:0}.future-play-2 .future-scene{min-height:0;padding:14px}.auto-trigger{padding:9px}.auto-step{padding-top:10px}.auto-event{padding:7px 9px;min-height:46px}.auto-mark{width:23px;height:23px}.auto-finish{margin-top:10px;min-height:14px}.auto-event small{margin-top:2px}
