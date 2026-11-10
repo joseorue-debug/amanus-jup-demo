@@ -63,3 +63,11 @@ body.experience-reveal #main{animation:amanus-screen-in .52s cubic-bezier(.2,.7,
 
 /* Keep each concept compact regardless of neighbouring scene height. */
 .future-grid{align-items:start}.future-grid .future-play{align-self:start}.future-grid .future-scene{margin-top:0}.future-play-2 .future-scene{min-height:0;padding:14px}.auto-trigger{padding:9px}.auto-step{padding-top:10px}.auto-event{padding:7px 9px;min-height:46px}.auto-mark{width:23px;height:23px}.auto-finish{margin-top:10px;min-height:14px}.auto-event small{margin-top:2px}
+/* One compact rhythm for communications, notices and learning. */
+@media(min-width:901px){
+.future-grid .future-play-2,.future-grid .future-play-3,.future-grid .future-play-4{display:grid;grid-template-rows:58px 12px 62px 94px 180px 18px;gap:10px;align-content:start}
+.future-grid :is(.future-play-2,.future-play-3,.future-play-4)>:is(.future-symbol,.future-number,h3,p,.future-scene,.future-micro){margin:0}
+.future-grid :is(.future-play-2,.future-play-3,.future-play-4)>.future-scene{min-height:0;height:180px}
+.future-grid :is(.future-play-2,.future-play-3,.future-play-4)>h3{align-self:start}
+}
+.future-play-2 .future-scene{padding:10px 12px;min-height:180px}.auto-trigger{padding:6px 9px;min-height:34px}.auto-trigger small{display:none}.auto-avatar{width:23px;height:23px;font-size:10px}.auto-step{padding-top:7px;padding-left:12px}.auto-event{padding:4px 7px;min-height:32px;gap:7px}.auto-event b{font-size:10px}.auto-event small{font-size:8px;line-height:1.2;margin-top:1px}.auto-mark{width:20px;height:20px;font-size:9px}.auto-finish{display:none}.auto-steps{padding-left:11px}
