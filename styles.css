@@ -71,3 +71,4 @@ body.experience-reveal #main{animation:amanus-screen-in .52s cubic-bezier(.2,.7,
 .future-grid :is(.future-play-2,.future-play-3,.future-play-4)>h3{align-self:start}
 }
 .future-play-2 .future-scene{padding:10px 12px;min-height:180px}.auto-trigger{padding:6px 9px;min-height:34px}.auto-trigger small{display:none}.auto-avatar{width:23px;height:23px;font-size:10px}.auto-step{padding-top:7px;padding-left:12px}.auto-event{padding:4px 7px;min-height:32px;gap:7px}.auto-event b{font-size:10px}.auto-event small{font-size:8px;line-height:1.2;margin-top:1px}.auto-mark{width:20px;height:20px;font-size:9px}.auto-finish{display:none}.auto-steps{padding-left:11px}
+.auto-event b{display:block;line-height:12px}.auto-event small{line-height:10px;font-size:8px}.auto-event{height:32px;min-height:32px}.auto-trigger{height:34px;min-height:34px}.auto-trigger b{line-height:14px}
